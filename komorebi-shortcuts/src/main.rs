@@ -58,6 +58,7 @@ impl eframe::App for Quicklook {
                             ui.add(
                                 eframe::egui::text_edit::TextEdit::singleline(&mut self.filter)
                                     .hint_text("Filter by command...")
+                                    .hint_text("Filter by command...")
                                     .background_color(ctx.style().visuals.faint_bg_color),
                             );
                             ui.end_row();
